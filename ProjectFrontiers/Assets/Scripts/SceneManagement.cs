@@ -17,8 +17,8 @@ public class SceneManagement
                 SceneManager.LoadScene("Wasteland");
                 break;
 
-            case "OverGrown":
-                SceneManager.LoadScene("OverGrown");
+            case "Overgrown":
+                SceneManager.LoadScene("Overgrown");
                 break;
 
             default:

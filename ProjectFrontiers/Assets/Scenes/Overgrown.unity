@@ -402,10 +402,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
-      propertyPath: TargetPlanetState
-      value: Overgrown
-      objectReference: {fileID: 0}
     - target: {fileID: 8795061071760507771, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: m_Name
       value: SwitchState
