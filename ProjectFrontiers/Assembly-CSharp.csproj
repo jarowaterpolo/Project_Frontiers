@@ -61,7 +61,15 @@
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\6000.0.56f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\External_Assets\InnerDriveStudios\Utils\Notes\Scripts\Note.cs" />
+    <Compile Include="Assets\External_Assets\InnerDriveStudios\Utils\Common\Strings.cs" />
+    <Compile Include="Assets\External_Assets\InnerDriveStudios\Utils\Common\Settings.cs" />
     <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\External_Assets\InnerDriveStudios\Utils\PivotPointUtility\version.txt" />
+    <None Include="Assets\External_Assets\InnerDriveStudios\Utils\Notes\version.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
