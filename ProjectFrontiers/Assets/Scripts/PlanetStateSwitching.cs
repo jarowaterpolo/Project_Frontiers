@@ -39,6 +39,12 @@ public class PlanetStateSwitching : MonoBehaviour
         PlayerTransform.rotation = PlayerTracker.transform.rotation;
 
         SavedRot = PlayerCamTracker.transform.localEulerAngles.x;
+
+        if (SavedRot > 90)
+        {
+            SavedRot -= 360;
+        }
+        Debug.Log("rot = " + SavedRot);
     }
 
     public void Update()
