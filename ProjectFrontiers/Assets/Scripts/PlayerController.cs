@@ -29,7 +29,7 @@ public class PlayerController : MonoBehaviour
     private float stepTimer = 0f;
 
     private Rigidbody rb;
-    private float xRotation = 0f;
+    private float xRotation;
 
     private void Start()
     {
@@ -39,6 +39,8 @@ public class PlayerController : MonoBehaviour
         // Locks mouse
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+
+        xRotation = PlanetStateSwitching.SavedRot;
     }
 
     private void Update()

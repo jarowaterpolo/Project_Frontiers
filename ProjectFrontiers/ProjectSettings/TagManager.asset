@@ -6,6 +6,7 @@ TagManager:
   tags:
   - PlayerPositionTracker
   - PlayerTracker
+  - PlayerCamTracker
   layers:
   - Default
   - TransparentFX
