@@ -406,6 +406,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5445393631501099070, guid: 61bbae57cecefb24d944536b6b92cbee, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: e30aa5c449714da4db37ddb83a0f5ff0, type: 2}
     - target: {fileID: 7385682382345815401, guid: 61bbae57cecefb24d944536b6b92cbee, type: 3}
       propertyPath: m_Name
       value: GreyBoxReactor

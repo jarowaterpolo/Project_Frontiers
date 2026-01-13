@@ -54,7 +54,7 @@ public class PlanetStateSwitching : MonoBehaviour
 
         PlayerCamTracker.transform.rotation = PlayerCamTransform.rotation;
 
-        if (Input.GetKeyDown((KeyCode)SwitchPlanetStateKey))
+        if (Input.GetKeyDown((KeyCode)SwitchPlanetStateKey) || Input.GetMouseButtonDown(1))
         {
             //Debug.Log("test click");
             Debug.Log(PlayerTracker);

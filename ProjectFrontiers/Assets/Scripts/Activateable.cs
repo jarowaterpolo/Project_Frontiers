@@ -18,7 +18,7 @@ public class Activateable : MonoBehaviour
 
     private void Update()
     {
-        if (PlayerInTrigger == true && Input.GetKeyDown((KeyCode)ActivateKey))
+        if (PlayerInTrigger == true && Input.GetKeyDown((KeyCode)ActivateKey) || Input.GetMouseButtonDown(0))
         {
             //Debug.Log("activation key " + ActivateKey + " was pressed");
             TriggerEvent.Invoke();
