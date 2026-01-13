@@ -62,9 +62,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\TutorialInfo\Scripts\Editor\ReadmeEditor.cs" />
-    <Compile Include="Assets\External_Assets\InnerDriveStudios\Utils\Common\Editor\Common.cs" />
-    <Compile Include="Assets\External_Assets\InnerDriveStudios\Utils\PivotPointUtility\Editor\PivotUtility.cs" />
-    <Compile Include="Assets\External_Assets\InnerDriveStudios\Utils\Notes\Scripts\Editor\NoteEditor.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
