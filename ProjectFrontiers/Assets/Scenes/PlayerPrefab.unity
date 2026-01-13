@@ -459,7 +459,7 @@ MonoBehaviour:
   maxSpeed: 5
   sprintMultiplier: 1.6
   drag: 6
-  mouseSensitivity: 100
+  mouseSensitivity: 1
   playerCamera: {fileID: 3013915613830369268}
   jumpForce: 7
   footstepSource: {fileID: 0}
