@@ -13,27 +13,29 @@ public class PlanetStateSwitching : MonoBehaviour
     public string TargetPlanetState;
     public char SwitchPlanetStateKey = 'q';
 
-    public GameObject PlayerPosTracker;
+    public GameObject PlayerTracker;
 
     private void Start()
     {
-        PlayerPosTracker = GameObject.FindGameObjectWithTag("PlayerPositionTracker");
-        DontDestroyOnLoad(PlayerPosTracker);
+        PlayerTracker = GameObject.FindGameObjectWithTag("PlayerTracker");
+        DontDestroyOnLoad(PlayerTracker);
 
         Player = GameObject.FindGameObjectWithTag("Player");
         PlayerTransform = Player.transform;
 
-        PlayerTransform.position = PlayerPosTracker.transform.position;
+        PlayerTransform.position = PlayerTracker.transform.position;
+        PlayerTransform.rotation = PlayerTracker.transform.rotation;
     }
 
     public void Update()
     {
-        PlayerPosTracker.transform.position = PlayerTransform.position;
+        PlayerTracker.transform.position = PlayerTransform.position;
+        PlayerTracker.transform.rotation = PlayerTransform.rotation;
 
         if (Input.GetKeyDown((KeyCode)SwitchPlanetStateKey))
         {
             //Debug.Log("test click");
-            Debug.Log(PlayerPosTracker);
+            Debug.Log(PlayerTracker);
             SceneManagement.ChangePlanetState(TargetPlanetState);
         }
     }
