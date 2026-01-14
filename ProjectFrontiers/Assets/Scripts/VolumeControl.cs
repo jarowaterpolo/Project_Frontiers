@@ -11,6 +11,6 @@ public class VolumeControl : MonoBehaviour
     public void SetVolume(float SliderValue)
     {
         MasterVolume.SetFloat(AudioParameter, Mathf.Log10(SliderValue) * 20);
-        PercentText.text = Mathf.Round(SliderValue * 100) + "%";
+        PercentText.text = Mathf.Round(SliderValue * 100) + "";
     }
 }
