@@ -248,9 +248,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3139230632214237209, guid: a9c642af96d570f4f965c3cceaeb535f, type: 3}
+      propertyPath: near clip plane
+      value: 0.03
+      objectReference: {fileID: 0}
     - target: {fileID: 6611620648881331285, guid: a9c642af96d570f4f965c3cceaeb535f, type: 3}
       propertyPath: m_Name
       value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6611620648881331285, guid: a9c642af96d570f4f965c3cceaeb535f, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
+    - target: {fileID: 6963213677357127782, guid: a9c642af96d570f4f965c3cceaeb535f, type: 3}
+      propertyPath: mouseSensitivity
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8318483930931876830, guid: a9c642af96d570f4f965c3cceaeb535f, type: 3}
       propertyPath: m_LocalPosition.x
