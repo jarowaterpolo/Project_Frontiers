@@ -22,7 +22,7 @@ public class SceneManagement
                 break;
 
             default:
-                Debug.Log("Somethings wrong");
+                SceneManager.LoadScene(TargetState);
                 break;
         }
     }
