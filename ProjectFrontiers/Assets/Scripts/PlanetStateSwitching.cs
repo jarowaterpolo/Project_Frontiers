@@ -21,6 +21,10 @@ public class PlanetStateSwitching : MonoBehaviour
     public GameObject PlayerTracker;
     public GameObject PlayerCamTracker;
 
+    public GameObject WastelandParent;
+    public GameObject OvergrownParent;
+
+
     private void Start()
     {
         PlayerTracker = GameObject.FindGameObjectWithTag("PlayerTracker");
@@ -49,16 +53,29 @@ public class PlanetStateSwitching : MonoBehaviour
 
     public void Update()
     {
-        PlayerTracker.transform.position = PlayerTransform.position;
-        PlayerTracker.transform.rotation = PlayerTransform.rotation;
+        //PlayerTracker.transform.position = PlayerTransform.position;
+        //PlayerTracker.transform.rotation = PlayerTransform.rotation;
 
-        PlayerCamTracker.transform.rotation = PlayerCamTransform.rotation;
+        //PlayerCamTracker.transform.rotation = PlayerCamTransform.rotation;
 
         if (Input.GetKeyDown((KeyCode)SwitchPlanetStateKey) || Input.GetMouseButtonDown(1))
         {
             //Debug.Log("test click");
-            Debug.Log(PlayerTracker);
-            SceneManagement.ChangePlanetState(TargetPlanetState);
+            //Debug.Log(PlayerTracker);
+            //SceneManagement.ChangePlanetState(TargetPlanetState);
+
+            switch (TargetPlanetState)
+            {
+                case "Wasteland":
+                        WastelandParent.SetActive(true);
+                        OvergrownParent.SetActive(false);
+                        break;
+
+                case "Overgrown":
+                    OvergrownParent.SetActive(true);
+                    WastelandParent.SetActive(false);
+                    break;
+            }
         }
     }
 }
