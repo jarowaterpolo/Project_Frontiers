@@ -39,8 +39,6 @@ public class PlayerController : MonoBehaviour
         // Locks mouse
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
-
-        xRotation = PlanetStateSwitching.SavedRot;
     }
 
     private void Update()

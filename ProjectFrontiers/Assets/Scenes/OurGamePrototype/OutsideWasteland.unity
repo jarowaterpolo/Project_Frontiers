@@ -2638,7 +2638,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0e359fc5bbab06e489a53696015a2b30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ScenceName: InsideLabWasteland
+  ScenceName: InsideLab
 --- !u!65 &1496596868
 BoxCollider:
   m_ObjectHideFlags: 0
