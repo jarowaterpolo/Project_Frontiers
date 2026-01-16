@@ -4,8 +4,7 @@ using UnityEngine.Events;
 
 public class Activateable : MonoBehaviour
 {
-    private Collider _collider;
-    private bool PlayerInTrigger;
+    private bool PlayerInTrigger = false;
 
     public UnityEvent TriggerEvent;
 
@@ -13,12 +12,14 @@ public class Activateable : MonoBehaviour
 
     private void Start()
     {
-        _collider = GetComponent<Collider>();
+
     }
 
     private void Update()
     {
-        if (PlayerInTrigger == true && Input.GetKeyDown((KeyCode)ActivateKey) || Input.GetMouseButtonDown(0))
+        //Debug.Log("Player is in collider = " + PlayerInTrigger);
+
+        if (PlayerInTrigger == true && (Input.GetKeyDown((KeyCode)ActivateKey) || Input.GetMouseButtonDown(0)))
         {
             //Debug.Log("activation key " + ActivateKey + " was pressed");
             TriggerEvent.Invoke();
@@ -31,6 +32,10 @@ public class Activateable : MonoBehaviour
         {
             //Debug.Log("Player is in the collider");
             PlayerInTrigger = true;
+        }
+        else
+        {
+            PlayerInTrigger = false;
         }
     }
     private void OnTriggerExit(Collider other)

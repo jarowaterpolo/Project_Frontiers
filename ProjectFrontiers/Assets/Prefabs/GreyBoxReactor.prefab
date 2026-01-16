@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 9212475550078861047}
   - component: {fileID: 5445393631501099070}
   - component: {fileID: 2228543103618689353}
+  - component: {fileID: 308183669008396833}
+  - component: {fileID: 8530072168017724421}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -109,6 +111,55 @@ CapsuleCollider:
   m_Radius: 0.5
   m_Height: 2
   m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &308183669008396833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3039836373333581106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9b2e7df99b1ba4cabaa20a5a3622c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TriggerEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 308183669008396833}
+        m_TargetAssemblyTypeName: Activateable, Assembly-CSharp
+        m_MethodName: Activate_Reactor
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  ActivateKey: 101
+--- !u!135 &8530072168017724421
+SphereCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3039836373333581106}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Radius: 3
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &7385682382345815401
 GameObject:

@@ -37,8 +37,7 @@ public class PlayerController : MonoBehaviour
         // Prevent player from tipping over
         rb.freezeRotation = true;
         // Locks mouse
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        CursorLock();
     }
 
     private void Update()
@@ -120,5 +119,17 @@ public class PlayerController : MonoBehaviour
         int randomIndex = Random.Range(0, footstepClips.Length);
         footstepSource.clip = footstepClips[randomIndex];
         footstepSource.Play();
+    }
+
+    public void CursorLock()
+    {
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = false;
+    }
+
+    public void CursorUnlock()
+    {
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 }
