@@ -47,4 +47,9 @@ public class Activateable : MonoBehaviour
     {
         Debug.Log("Activate Reactor");
     }
+
+    public void GetRemote()
+    {
+        PlanetStateSwitching.HasRemote = true;
+    }
 }
