@@ -75,6 +75,7 @@
     <Compile Include="Assets\Scripts\VolumeControl.cs" />
     <Compile Include="Assets\Scripts\Entrance.cs" />
     <Compile Include="Assets\Scripts\DialogueSystem.cs" />
+    <Compile Include="Assets\EventTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
