@@ -1,4 +1,6 @@
+using NUnit.Framework.Internal.Commands;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class Wire : MonoBehaviour
 {
@@ -7,6 +9,9 @@ public class Wire : MonoBehaviour
 
     private Camera cam;
     private bool connected;
+
+    private static int plantsConnected;
+    public UnityEvent RevealCode;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -61,6 +66,7 @@ public class Wire : MonoBehaviour
         {
             connected = true;
             line.SetPosition(1, correctTarget.position);
+            OnConnected();
         }
         else
         {
@@ -73,5 +79,13 @@ public class Wire : MonoBehaviour
     {
         Debug.Log($"{name} connected!");
         // Notify manager here
+        plantsConnected++;
+
+        Debug.Log("there are now " + plantsConnected + " plants connected correctly");
+
+        if (plantsConnected >= 6)
+        {
+            RevealCode.Invoke();
+        }
     }
 }
