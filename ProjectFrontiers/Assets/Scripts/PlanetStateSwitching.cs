@@ -20,7 +20,7 @@ public class PlanetStateSwitching : MonoBehaviour
 
     private float GlitchDelay = .15f;
 
-
+    private bool StartCutsceneDone = false;
     private void Start()
     {
         
@@ -79,22 +79,30 @@ public class PlanetStateSwitching : MonoBehaviour
     public void LabStart()
     {
         StartCoroutine("LabCutscene");
+        StartCutsceneDone = true;
     }
 
     IEnumerator LabCutscene()
     {
-        OvergrownOn();
-        yield return new WaitForSeconds(GlitchDelay);
-        WasteOn();
-        yield return new WaitForSeconds(GlitchDelay);
-        OvergrownOn();
-        yield return new WaitForSeconds(GlitchDelay);
-        WasteOn();
-        yield return new WaitForSeconds(GlitchDelay);
-        OvergrownOn();
-        yield return new WaitForSeconds(GlitchDelay);
-        WasteOn();
-        yield return new WaitForSeconds(GlitchDelay);
-        OvergrownOn();
+        if (StartCutsceneDone != true)
+        {
+            OvergrownOn();
+            yield return new WaitForSeconds(GlitchDelay);
+            WasteOn();
+            yield return new WaitForSeconds(GlitchDelay);
+            OvergrownOn();
+            yield return new WaitForSeconds(GlitchDelay);
+            WasteOn();
+            yield return new WaitForSeconds(GlitchDelay);
+            OvergrownOn();
+            yield return new WaitForSeconds(GlitchDelay);
+            WasteOn();
+            yield return new WaitForSeconds(GlitchDelay);
+            OvergrownOn();
+        }
+        else
+        {
+            yield return null;
+        }
     }
 }

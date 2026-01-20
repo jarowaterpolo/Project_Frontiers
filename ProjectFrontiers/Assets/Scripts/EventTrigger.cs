@@ -3,8 +3,6 @@ using UnityEngine.Events;
 
 public class EventTrigger : MonoBehaviour
 {
-    private bool PlayerInTrigger = false;
-
     public UnityEvent TriggerEvent;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
