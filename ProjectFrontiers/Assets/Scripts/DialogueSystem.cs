@@ -1,16 +1,24 @@
-using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using TMPro;
+using UnityEngine;
 
 public class DialogueSystem : MonoBehaviour
 {
     [Header("Dialogue")]
-    public string[] dialogueLines;
+    [TextArea(3, 10)]
+    public List<string> dialogueLines;
 
     [Header("UI")]
     public GameObject dialoguePanel;
     public TMP_Text dialogueText;
 
+    [Header("Typewriter")]
+    public float typingSpeed = 0.05f;
+
     private int currentLine = 0;
+    private Coroutine typingCoroutine;
+    private bool isTyping = false;
 
     void Start()
     {
@@ -22,7 +30,17 @@ public class DialogueSystem : MonoBehaviour
     {
         if (dialoguePanel.activeSelf && Input.GetKeyDown(KeyCode.E))
         {
-            NextLine();
+            if (isTyping)
+            {
+                // Instantly finish the current line
+                StopCoroutine(typingCoroutine);
+                dialogueText.text = dialogueLines[currentLine];
+                isTyping = false;
+            }
+            else
+            {
+                NextLine();
+            }
         }
     }
 
@@ -30,20 +48,42 @@ public class DialogueSystem : MonoBehaviour
     {
         currentLine = 0;
         dialoguePanel.SetActive(true);
-        dialogueText.text = dialogueLines[currentLine];
+        StartTyping(dialogueLines[currentLine]);
     }
 
     void NextLine()
     {
         currentLine++;
 
-        if (currentLine < dialogueLines.Length)
+        if (currentLine < dialogueLines.Count)
         {
-            dialogueText.text = dialogueLines[currentLine];
+            StartTyping(dialogueLines[currentLine]);
         }
         else
         {
             dialoguePanel.SetActive(false);
         }
+    }
+
+    void StartTyping(string line)
+    {
+        if (typingCoroutine != null)
+            StopCoroutine(typingCoroutine);
+
+        typingCoroutine = StartCoroutine(TypeLine(line));
+    }
+
+    IEnumerator TypeLine(string line)
+    {
+        isTyping = true;
+        dialogueText.text = "";
+
+        foreach (char letter in line)
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(typingSpeed);
+        }
+
+        isTyping = false;
     }
 }
