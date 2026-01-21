@@ -62,6 +62,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\InputTextPairText.cs" />
+    <Compile Include="Assets\Scripts\NewEmptyCSharpScript.cs" />
     <Compile Include="Assets\Scripts\PlanetStateSwitching.cs" />
     <Compile Include="Assets\Scripts\Menu\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SceneManagement.cs" />
