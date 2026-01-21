@@ -7,7 +7,7 @@ public class Wire : MonoBehaviour
     public Transform correctTarget;
     public LineRenderer line;
 
-    private Camera cam;
+    public Camera cam;
     private bool connected;
 
     private static int plantsConnected;
@@ -16,8 +16,6 @@ public class Wire : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        cam = Camera.main;
-
         line.positionCount = 2;
         line.useWorldSpace = true;
         line.enabled = false;
