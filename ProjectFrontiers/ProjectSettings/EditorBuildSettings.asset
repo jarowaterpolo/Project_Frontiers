@@ -5,9 +5,21 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/MainMenu.unity
+    guid: 322f4702ce855b54d8aa66cf1c2b466f
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/OurGamePrototype/Start.unity
+    guid: b9118b9eaafeb7c4a8addc701f019c9d
+  - enabled: 1
+    path: Assets/Scenes/OurGamePrototype/OutsideWasteland.unity
+    guid: 6c43222cf36c3b142b3a595bfbc78994
+  - enabled: 1
+    path: Assets/Scenes/OurGamePrototype/InsideLab.unity
+    guid: aefbac95544c38f4eb71b56c10558a85
+  - enabled: 1
+    path: Assets/Scenes/OurGamePrototype/End.unity
+    guid: c68b801cf656b0641874aa266d7768c6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
