@@ -638,7 +638,7 @@ MonoBehaviour:
   Open_Settings:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1943140688}
         m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
         m_MethodName: SetActive
         m_Mode: 6
@@ -650,7 +650,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1901092178}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: CursorUnlock
         m_Mode: 1
@@ -662,7 +662,7 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 1901092178}
         m_TargetAssemblyTypeName: PlayerController, Assembly-CSharp
         m_MethodName: set_enabled
         m_Mode: 6
@@ -3357,12 +3357,32 @@ PrefabInstance:
     m_TransformParent: {fileID: 1578604987}
     m_Modifications:
     - target: {fileID: 4104057332013598815, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104057332013598815, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104057332013598815, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 1901092178}
     - target: {fileID: 4104057332013598815, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
+      objectReference: {fileID: 1901092178}
+    - target: {fileID: 4104057332013598815, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: CursorLock
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104057332013598815, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 4104057332013598815, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_BoolArgument
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6563879972247994788, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
       propertyPath: m_Pivot.x
@@ -4090,6 +4110,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32e1fbe3d1b9ad44e85a9e6452a2c3b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &1943140688 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4916175382855325596, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
+  m_PrefabInstance: {fileID: 1507291728}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1955070184
 PrefabInstance:
   m_ObjectHideFlags: 0
