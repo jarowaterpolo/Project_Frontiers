@@ -1,0 +1,104 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &5001006281753032919
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: -6443402390821422860, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: da4f7bc2c1526fa419b08bd304287905, type: 2}
+    - target: {fileID: 100000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_Name
+      value: Rock_3
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 3.8355
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 3.8355
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 3.8355
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 12.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -2.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.90454465
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.39588347
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.13320167
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.08563016
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -43.898
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -25.373
+      objectReference: {fileID: 0}
+    - target: {fileID: 400000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 21.183
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 7119884751268291088}
+  m_SourcePrefab: {fileID: 100100000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+--- !u!1 &5001006281753067127 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: ba52853a69186a841a52a9cc2e9b77fa, type: 3}
+  m_PrefabInstance: {fileID: 5001006281753032919}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &7119884751268291088
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5001006281753067127}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 0.4, y: 0.62, z: 0.62}
+  m_Center: {x: 0, y: 0.21, z: 0}
