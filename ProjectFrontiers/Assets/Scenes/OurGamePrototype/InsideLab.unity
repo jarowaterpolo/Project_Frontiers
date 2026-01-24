@@ -2241,10 +2241,18 @@ PrefabInstance:
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 1525993915}
+    - target: {fileID: 6309761523738580125, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2034
+      objectReference: {fileID: 0}
     - target: {fileID: 7012809397790671379, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 637355001}
+    - target: {fileID: 7012809397790671379, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_VersionIndex
+      value: 2412
+      objectReference: {fileID: 0}
     - target: {fileID: 8703899109935794968, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_Mesh
       value: 
