@@ -415,7 +415,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 37941291901404779, guid: 27d04bad74fb3614380cb2e8e70284fb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 37941291901404779, guid: 27d04bad74fb3614380cb2e8e70284fb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -3643,7 +3643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2721639255637253011, guid: 1050f763e06c2cb4ab144fa18875086c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.95
+      value: -17.03
       objectReference: {fileID: 0}
     - target: {fileID: 2721639255637253011, guid: 1050f763e06c2cb4ab144fa18875086c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3815,6 +3815,45 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 1507291733}
+    - target: {fileID: 1446747899103632587, guid: 7100af1bdd2ca2840825a138c719633c, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446747899103632587, guid: 7100af1bdd2ca2840825a138c719633c, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: "-Recorded on: September 10th 2139; 14:00\r\n~\r\nCaptain: Alright everyone,
+        get your stuff out of the ship, we\u2019ve got a lot to do and a very short
+        deadline. Move it people!\r\n\r\n*Footsteps echo through the lab, heavy boxes
+        dropped at the research stations and newly set-up computers activate"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446747899103632587, guid: 7100af1bdd2ca2840825a138c719633c, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: "Researcher 1: Sir, the reactor is far too heavy to carry on my own,
+        and I\u2019m worried that-\r\nCaptain: Kyle! Help David carry the reactor
+        inside alright!\r\nResearcher 2: Yes sir!\n\n*An incredibly heavy box screeches
+        across the floor\r\n\r\nResearcher 1: Kyle, you gotta lift it! It\u2019s
+        gonna break like this!\r\nResearcher 2: Oh come on, it\u2019ll be fine-\r\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446747899103632587, guid: 7100af1bdd2ca2840825a138c719633c, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "thunk sound(!)\n\nResearcher 2: Oops\r\nResearcher 2: Oh well, it\u2019ll
+        be fine.\r\nResearcher 1: You have got to be kidding me. Really Kyle?\n\nCaptain:
+        What\u2019s going on here, I heard a noise\r\nResearcher 1: Kyle just-\r\nResearcher
+        2: Nothing sir! Hahaa, just some playful banter."
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446747899103632587, guid: 7100af1bdd2ca2840825a138c719633c, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: "Captain: Right, whatever, well, open the box and get that reactor installed
+        alright?\r\nResearcher 1: But sir-\r\nResearcher 2: Yes sir! We\u2019ll get
+        right on that!\r\n~"
+      objectReference: {fileID: 0}
+    - target: {fileID: 1446747899103632587, guid: 7100af1bdd2ca2840825a138c719633c, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "thunk sound(!)\n\nResearcher 2: Oops\r\nResearcher 2: Oh well, it\u2019ll
+        be fine.\r\nResearcher 1: You have got to be kidding me. Really Kyle?\n\nCaptain:
+        What\u2019s going on here, I heard a noise\r\nResearcher 1: Kyle just-\r\nResearcher
+        2: Nothing sir! Hahaa, just some playful banter."
+      objectReference: {fileID: 0}
     - target: {fileID: 6356570511429395926, guid: 7100af1bdd2ca2840825a138c719633c, type: 3}
       propertyPath: m_Name
       value: DialogueManager Variant VoiceLog1
@@ -3949,6 +3988,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1578604987}
     m_Modifications:
+    - target: {fileID: 558782590250646946, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_Name
+      value: MainRoomOvergrown
+      objectReference: {fileID: 0}
     - target: {fileID: 1003975697933535267, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -3960,6 +4003,18 @@ PrefabInstance:
     - target: {fileID: 2215498780279148878, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_Name
       value: LabPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3279366446657567721, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 50.1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3279366446657567721, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 3279366446657567721, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.8
       objectReference: {fileID: 0}
     - target: {fileID: 3993846693335662985, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -3987,7 +4042,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4872156617055785134, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5719096201223634311, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 52.3
       objectReference: {fileID: 0}
     - target: {fileID: 5853943696996101315, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4039,11 +4098,11 @@ PrefabInstance:
       objectReference: {fileID: 1525993915}
     - target: {fileID: 6309761523738580125, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_VersionIndex
-      value: 2034
+      value: 2139
       objectReference: {fileID: 0}
     - target: {fileID: 6461171426925556245, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7012809397790671379, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_Mesh
@@ -4051,12 +4110,16 @@ PrefabInstance:
       objectReference: {fileID: 637355001}
     - target: {fileID: 7012809397790671379, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_VersionIndex
-      value: 2412
+      value: 2517
       objectReference: {fileID: 0}
     - target: {fileID: 8703899109935794968, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_Mesh
       value: 
       objectReference: {fileID: 637355001}
+    - target: {fileID: 8994694858057117744, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 52.3
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8859616287466131282, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
