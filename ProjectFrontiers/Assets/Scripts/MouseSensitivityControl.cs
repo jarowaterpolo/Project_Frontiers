@@ -22,6 +22,6 @@ public class MouseSensitivityControl : MonoBehaviour
 
     private void Update()
     {
-        Debug.Log(playerPrefab.mouseSensitivity);
+        //Debug.Log(playerPrefab.mouseSensitivity);
     }
 }
