@@ -47,7 +47,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2448381368685658036, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -250
+      value: -253
       objectReference: {fileID: 0}
     - target: {fileID: 2448381368685658036, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
       propertyPath: m_LocalPosition.y
@@ -109,6 +109,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7440655337105336610, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
+      propertyPath: m_IsTrigger
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8632521690350388942, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
@@ -135,6 +139,14 @@ PrefabInstance:
     - target: {fileID: 1724287335889328243, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
       propertyPath: m_Name
       value: Terrarium room
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448381368685658036, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 255
+      objectReference: {fileID: 0}
+    - target: {fileID: 2448381368685658036, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -130
       objectReference: {fileID: 0}
     - target: {fileID: 6195159531042428972, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
       propertyPath: m_LocalPosition.x
@@ -174,6 +186,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6195159531042428972, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7440655337105336610, guid: 7bac495763a454300a00480c85afdb5a, type: 3}
+      propertyPath: m_IsTrigger
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []

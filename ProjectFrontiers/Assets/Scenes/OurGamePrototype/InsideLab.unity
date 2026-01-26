@@ -119,6 +119,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &3673870 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4398928762203045576, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+  m_PrefabInstance: {fileID: 5292811564691057854}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e9b2e7df99b1ba4cabaa20a5a3622c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &36826043
 GameObject:
   m_ObjectHideFlags: 0
@@ -226,7 +237,7 @@ Transform:
   m_GameObject: {fileID: 203269979}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10.2, z: -11.5}
+  m_LocalPosition: {x: 0, y: 10.2, z: -11.45}
   m_LocalScale: {x: 50, y: 0.5, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1475,6 +1486,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 915021681}
+        m_TargetAssemblyTypeName: Activateable, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   ActivateKey: 101
 --- !u!135 &915021685
 SphereCollider:
@@ -2091,7 +2114,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
@@ -2102,6 +2125,14 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[3].m_Mode
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1901092178}
@@ -2110,11 +2141,27 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1901092178}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 3673870}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[3].m_Target
+      value: 
+      objectReference: {fileID: 1613723489}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[3].m_CallState
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
@@ -2126,6 +2173,14 @@ PrefabInstance:
       value: CursorUnlock
       objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[3].m_MethodName
+      value: set_enabled
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
       value: PlayerController, Assembly-CSharp
       objectReference: {fileID: 0}
@@ -2134,11 +2189,27 @@ PrefabInstance:
       value: PlayerController, Assembly-CSharp
       objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[2].m_TargetAssemblyTypeName
+      value: Activateable, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[3].m_TargetAssemblyTypeName
+      value: Activateable, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
+      propertyPath: ErrorStop.m_PersistentCalls.m_Calls.Array.data[3].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 8795061071760507771, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
@@ -2265,6 +2336,18 @@ MonoBehaviour:
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1320092129}
+        m_TargetAssemblyTypeName: Activateable, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
         m_CallState: 2
   ActivateKey: 101
 --- !u!135 &1320092133
@@ -2714,7 +2797,7 @@ Transform:
   m_GameObject: {fileID: 1511346620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10.2, z: 11.1}
+  m_LocalPosition: {x: 0, y: 10.2, z: 10.92}
   m_LocalScale: {x: 50, y: 0.5, z: 6}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3397,39 +3480,49 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 1507291733}
     - target: {fileID: 5989358506390541858, guid: 449048f938bbb3f4d9e72fcb07ac9b76, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989358506390541858, guid: 449048f938bbb3f4d9e72fcb07ac9b76, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
       value: "-Recorded on: September 13th 2139; 11:00\r\n~\r\nResearcher 2: Sir,
-        the reactor\u2019s all set up and ready to go, let\u2019s turn it on!-\r\nCaptain:
+        the reactor\u2019s all set up and ready to go, let\u2019s turn it on!-\n\r\nCaptain:
         Not yet, we need to make sure nothing goes wrong. The terraforming team is
-        already hard at work making sure there won\u2019t be any wild mutation. \r\nCaptain:
-        Not like we\u2019d be able to without that info yet, the company made sure
-        we\u2019d only get the code once the mutations had been figured out.\r"
+        already hard at work making sure there won\u2019t be any wild mutation. \r"
       objectReference: {fileID: 0}
     - target: {fileID: 5989358506390541858, guid: 449048f938bbb3f4d9e72fcb07ac9b76, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
-      value: "Captain: Speaking of\u2026 \r\nCaptain: John! Bob! Any progress yet?\r\nResearcher
-        3: Nearly done sir! This should be the last simulation!\r\n\r\n*The sound
-        of a simulation booting up echoes throughout the lab, only for an error message
-        to accompany it\r\n\r\nResearcher 3: Nevermind! We\u2019ll need a bit more
-        time!\r\nCaptain: *sigh\r"
+      value: "Captain: Not like we\u2019d be able to without that info yet, the company
+        made sure we\u2019d only get the code once the mutations had been figured
+        out.\n\nCaptain: Speaking of\u2026 \r\n\nCaptain: John! Bob! Any progress
+        yet?\n\r\nResearcher 3: Nearly done sir! This should be the last simulation!\r\r"
       objectReference: {fileID: 0}
     - target: {fileID: 5989358506390541858, guid: 449048f938bbb3f4d9e72fcb07ac9b76, type: 3}
       propertyPath: 'dialogueLines.Array.data[2]'
-      value: "Researcher 4: What went wrong this time?\r\nResearcher 3: I\u2019m
-        not sure, but it seems like it\u2019s trying to answer with two different
-        results for the same plant.\r\nResearcher 4: Yeah, that makes sense right?
-        We don\u2019t know what the future holds, and it\u2019s possible different
-        mutations happen to the same species.\r\nResearcher 3: Exactly why I\u2019m
-        confused. It\u2019s like the system thinks they\u2019re mutually exclusive?\r"
+      value: "*The sound of a simulation booting up echoes throughout the lab, only
+        for an error message to accompany it\r\n\r\nResearcher 3: Nevermind! We\u2019ll
+        need a bit more time!\n\r\nCaptain: *sigh\n\nResearcher 4: What went wrong
+        this time?\r"
       objectReference: {fileID: 0}
     - target: {fileID: 5989358506390541858, guid: 449048f938bbb3f4d9e72fcb07ac9b76, type: 3}
       propertyPath: 'dialogueLines.Array.data[3]'
-      value: "Researcher 3: AHA! Captain! We\u2019ve got the code!\r\nResearcher
-        4: You solved it?\r\nResearcher 3: Not exactly, I still don\u2019t know why
-        it gave an error, but we managed to bypass it and neither mutation seems
-        harmful, so everything should be fine!\r\nCaptain: Oh who cares how you did
-        it, we\u2019ve got a deadline, give me that code.\r\nResearcher 4: Right
-        away sir!\r\n~\r\r"
+      value: "Researcher 3: I\u2019m not sure, but it seems like it\u2019s trying
+        to answer with two different results for the same plant.\n\r\nResearcher
+        4: Yeah, that makes sense right? We don\u2019t know what the future holds,
+        and it\u2019s possible different mutations happen to the same species.\n\r\r\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989358506390541858, guid: 449048f938bbb3f4d9e72fcb07ac9b76, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: "Researcher 3: Exactly why I\u2019m confused. It\u2019s like the system
+        thinks they\u2019re mutually exclusive?\n\nResearcher 3: AHA! Captain! We\u2019ve
+        got the code!\n\r\nResearcher 4: You solved it?\r\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 5989358506390541858, guid: 449048f938bbb3f4d9e72fcb07ac9b76, type: 3}
+      propertyPath: 'dialogueLines.Array.data[5]'
+      value: "Researcher 3: Not exactly, I still don\u2019t know why it gave an error,
+        but we managed to bypass it and neither mutation seems harmful, so everything
+        should be fine!\n\r\nCaptain: Oh who cares how you did it, we\u2019ve got
+        a deadline, give me that code.\n\r\nResearcher 4: Right away sir!\r\n~\r\r"
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3643,7 +3736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2721639255637253011, guid: 1050f763e06c2cb4ab144fa18875086c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -17.03
+      value: -16.81
       objectReference: {fileID: 0}
     - target: {fileID: 2721639255637253011, guid: 1050f763e06c2cb4ab144fa18875086c, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3732,6 +3825,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 1
         m_CallState: 2
+      - m_Target: {fileID: 2014823625}
+        m_TargetAssemblyTypeName: Activateable, Assembly-CSharp
+        m_MethodName: set_enabled
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   ActivateKey: 101
 --- !u!135 &2014823629
 SphereCollider:
@@ -3752,7 +3857,7 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 60
+  m_Radius: 40
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!20 &2024509323 stripped
 Camera:
@@ -4006,7 +4111,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3279366446657567721, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 50.1
+      value: 50.4
       objectReference: {fileID: 0}
     - target: {fileID: 3279366446657567721, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -4046,7 +4151,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5719096201223634311, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.3
+      value: 52.5
       objectReference: {fileID: 0}
     - target: {fileID: 5853943696996101315, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4098,11 +4203,11 @@ PrefabInstance:
       objectReference: {fileID: 1525993915}
     - target: {fileID: 6309761523738580125, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_VersionIndex
-      value: 2139
+      value: 2172
       objectReference: {fileID: 0}
     - target: {fileID: 6461171426925556245, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7012809397790671379, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_Mesh
@@ -4110,7 +4215,7 @@ PrefabInstance:
       objectReference: {fileID: 637355001}
     - target: {fileID: 7012809397790671379, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_VersionIndex
-      value: 2517
+      value: 2550
       objectReference: {fileID: 0}
     - target: {fileID: 8703899109935794968, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_Mesh
@@ -4118,14 +4223,14 @@ PrefabInstance:
       objectReference: {fileID: 637355001}
     - target: {fileID: 8994694858057117744, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 52.3
+      value: 52.5
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 8859616287466131282, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 5853943696996101315, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
-      insertIndex: 5
+      insertIndex: -1
       addedObject: {fileID: 447547390}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
@@ -4152,6 +4257,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1507291729}
     m_Modifications:
+    - target: {fileID: 2310731463407533059, guid: bf7d94e43d229954889e3116de25d4d3, type: 3}
+      propertyPath: m_text
+      value: "You switched time a bit too much. \nBe more carefull next time ;)"
+      objectReference: {fileID: 0}
     - target: {fileID: 4248183675771476594, guid: bf7d94e43d229954889e3116de25d4d3, type: 3}
       propertyPath: m_Name
       value: SwitchingError

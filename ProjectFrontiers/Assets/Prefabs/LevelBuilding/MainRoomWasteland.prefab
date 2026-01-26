@@ -47,7 +47,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7055297163726964001, guid: 947113963ec6a4e6fa294ad153c40d00, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -250
+      value: -253
       objectReference: {fileID: 0}
     - target: {fileID: 7055297163726964001, guid: 947113963ec6a4e6fa294ad153c40d00, type: 3}
       propertyPath: m_LocalPosition.y
@@ -137,6 +137,14 @@ PrefabInstance:
     - target: {fileID: 3599850665202843150, guid: 947113963ec6a4e6fa294ad153c40d00, type: 3}
       propertyPath: m_Name
       value: Terrarium_Wasteland
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055297163726964001, guid: 947113963ec6a4e6fa294ad153c40d00, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 255
+      objectReference: {fileID: 0}
+    - target: {fileID: 7055297163726964001, guid: 947113963ec6a4e6fa294ad153c40d00, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -130
       objectReference: {fileID: 0}
     - target: {fileID: 7447813689810600136, guid: 947113963ec6a4e6fa294ad153c40d00, type: 3}
       propertyPath: m_LocalPosition.x
