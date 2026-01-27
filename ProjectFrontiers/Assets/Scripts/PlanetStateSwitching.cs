@@ -60,6 +60,8 @@ public class PlanetStateSwitching : MonoBehaviour
                         WastelandSwitch.SetActive(true);
                         OvergrownSwitch.SetActive(false);
 
+                        RemoteLighting.OrangeLightOn();
+
                         TargetPlanetState = "Overgrown";
                         break;
 
@@ -69,6 +71,8 @@ public class PlanetStateSwitching : MonoBehaviour
 
                         OvergrownSwitch.SetActive(true);
                         WastelandSwitch.SetActive(false);
+
+                        RemoteLighting.GreenLightOn();
 
                         TargetPlanetState = "Wasteland";
                         break;

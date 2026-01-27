@@ -8,31 +8,27 @@ public class RemoteLighting : MonoBehaviour
     public GameObject greenLight;
     public GameObject orangeLight;
 
+    public static bool InWasteland = true;
+
     private void Start()
     {
         staticGreenLight = greenLight;
         staticOrangeLight = orangeLight;
     }
 
-    void Update()
-    {
-        HandleGreenLight();
-        HandleOrangeLight();
-    }
-
-    public static void HandleGreenLight()
+    public static void GreenLightOn()
     {
         if (staticGreenLight == null) return;
 
-        bool isHoldingQ = Input.GetKey(KeyCode.Q);
-        staticGreenLight.SetActive(isHoldingQ);
+        staticGreenLight.SetActive(true);
+        staticOrangeLight.SetActive(false);
     }
 
-    public static void HandleOrangeLight()
+    public static void OrangeLightOn()
     {
         if (staticOrangeLight == null) return;
 
-        bool isHoldingRightMouse = Input.GetMouseButton(1);
-        staticOrangeLight.SetActive(isHoldingRightMouse);
+        staticGreenLight.SetActive(false);
+        staticOrangeLight.SetActive(true);
     }
 }
