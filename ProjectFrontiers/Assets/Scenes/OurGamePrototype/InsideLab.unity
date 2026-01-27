@@ -587,6 +587,10 @@ PrefabInstance:
       propertyPath: m_VersionIndex
       value: 7057
       objectReference: {fileID: 0}
+    - target: {fileID: 4414323843077273179, guid: 2512eb206bafc9e409858ee84ce2821e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 5067486761880271458, guid: 2512eb206bafc9e409858ee84ce2821e, type: 3}
       propertyPath: m_Name
       value: DeathPit Variant Left
@@ -1529,6 +1533,10 @@ PrefabInstance:
     - target: {fileID: 4323413445454519228, guid: 9a999763f0611224aaede536cbd27add, type: 3}
       propertyPath: m_LocalPosition.x
       value: 21.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 4756413191273038697, guid: 9a999763f0611224aaede536cbd27add, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 6309610846276640945, guid: 9a999763f0611224aaede536cbd27add, type: 3}
       propertyPath: m_Center.y
@@ -3471,10 +3479,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: DialogueManager Variant VoiceLog3
       objectReference: {fileID: 0}
-    - target: {fileID: 1967735184831270022, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 4645595325529870584, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3523,53 +3527,6 @@ PrefabInstance:
       propertyPath: dialoguePanel
       value: 
       objectReference: {fileID: 1507291733}
-    - target: {fileID: 6298915226620425627, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
-      propertyPath: dialogueLines.Array.size
-      value: 6
-      objectReference: {fileID: 0}
-    - target: {fileID: 6298915226620425627, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
-      propertyPath: 'dialogueLines.Array.data[0]'
-      value: "-Recorded on: September 13th 2139; 16:00\r\n~\r\n*Booting sounds echo
-        through the entire lab as the reactor starts. When all of a sudden, a loud
-        beeping starts to emanate from it.\r\n\r\nCaptain: What\u2019s going on?
-        Why is it making that godawful noise?!\n\r\nResearcher 1: The reactor is
-        malfunctioning sir!\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6298915226620425627, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
-      propertyPath: 'dialogueLines.Array.data[1]'
-      value: "Captain: Well then un-malfunction it!\n\r\nResearcher 1: I\u2019m trying
-        sir!\r\n\r\n*The beeping gets louder and louder\n\nResearcher 1: It\u2019s
-        not working sir!\n\r\nCaptain: What do you mean \u2018it\u2019s not working\u2019?!\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6298915226620425627, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
-      propertyPath: 'dialogueLines.Array.data[2]'
-      value: "Researcher 1: I mean that no matter what I do the thing keeps malfunctioning!\n\r\nCaptain:
-        Move aside! Let me see!\r\n\r\n*The beeping continues to increase in volume,
-        and panicked footsteps echo all around\r\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6298915226620425627, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
-      propertyPath: 'dialogueLines.Array.data[3]'
-      value: "Captain: Alright, everyone listen up! We need to evacuate! We don\u2019t
-        know what this reactor will do if it gets any worse!\n\r\nResearcher 2: Already
-        on it sir!\n\n*The airlock opens, but as soon as the steps enter, a strange
-        sound rings around and silence follows, broken only by the reactor\u2019s
-        beeping, only to be replaced by panicked screams\r"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6298915226620425627, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
-      propertyPath: 'dialogueLines.Array.data[4]'
-      value: "Researcher 3: \u2026 WHAT HAPPENED TO KYLE!??\n\r\nResearcher 4: DID
-        HE JUST- DISAPPEAR!??\n\r\nCaptain: Everyone stay calm! Do NOT touch the
-        airlock!\n\r\nResearcher 1: Put on your suits! We\u2019ll break the glass
-        in the terrarium and get out that way"
-      objectReference: {fileID: 0}
-    - target: {fileID: 6298915226620425627, guid: 648541781cf3fbd469bc4ae4e634d38d, type: 3}
-      propertyPath: 'dialogueLines.Array.data[5]'
-      value: "*More panicked footsteps ring through the lab as the beeping gets louder
-        and louder, only to suddenly come to a stop. That same strange sound rings
-        through the air, louder this time, before everything seems to go quiet. No
-        more footsteps, no more beeping, not even a single breath is heard, the only
-        sound left being the reactor\u2019s gentle hum.\r\n~"
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
