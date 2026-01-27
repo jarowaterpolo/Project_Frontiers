@@ -19,6 +19,9 @@ public class EventTrigger : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        TriggerEvent.Invoke();
+        if (other.transform.parent.CompareTag("Player"))
+        {
+            TriggerEvent.Invoke();
+        }
     }
 }

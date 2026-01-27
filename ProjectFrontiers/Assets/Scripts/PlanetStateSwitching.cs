@@ -21,6 +21,10 @@ public class PlanetStateSwitching : MonoBehaviour
     private float GlitchDelay = .15f;
 
     private bool StartCutsceneDone = false;
+
+    public GameObject ErrorCanvas;
+    public UnityEvent ErrorStop;
+
     private void Start()
     {
         
@@ -38,6 +42,15 @@ public class PlanetStateSwitching : MonoBehaviour
                 //SceneManagement.ChangePlanetState(TargetPlanetState);
 
                 Debug.Log("Planet switch activated " + i + "times");
+
+                if (i >= 250)
+                {
+                    ErrorCanvas.SetActive(true);
+                    ErrorStop.Invoke();
+                    return;
+                }
+
+
                 switch (TargetPlanetState)
                 {
                     case "Wasteland":
@@ -46,6 +59,8 @@ public class PlanetStateSwitching : MonoBehaviour
 
                         WastelandSwitch.SetActive(true);
                         OvergrownSwitch.SetActive(false);
+
+                        RemoteLighting.OrangeLightOn();
 
                         TargetPlanetState = "Overgrown";
                         break;
@@ -56,6 +71,8 @@ public class PlanetStateSwitching : MonoBehaviour
 
                         OvergrownSwitch.SetActive(true);
                         WastelandSwitch.SetActive(false);
+
+                        RemoteLighting.GreenLightOn();
 
                         TargetPlanetState = "Wasteland";
                         break;

@@ -28,14 +28,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_62ce121f66fc44d298c08ac161cd9ea7_Texture_1_Texture2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - _SampleTexture2D_73d0c50691574f6bb8dde4cb3746ee4d_Texture_1_Texture2D:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_aafa757c7bc54b57851d2ea55cd04f5a_Texture_1_Texture2D:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
@@ -54,14 +46,13 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Opacity_: 15
-    - _Edge: 0.4
-    - _Opacity: 56.98
+    - Opacity_: 0.2
+    - _Edge: 2
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _UseTexture: 1
+    - _UseTexture: 0
     m_Colors:
-    - _Color: {r: 0.80740875, g: 0.8113208, b: 0.6352795, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 0}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
 --- !u!114 &722744930401396293

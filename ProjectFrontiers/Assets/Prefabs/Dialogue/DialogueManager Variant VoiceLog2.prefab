@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &7822747221602845209
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: "-Recorded on: September 13th 2139; 11:00\r\n~\r\nResearcher 2: Sir,
+        the reactor\u2019s all set up and ready to go, let\u2019s turn it on!-\r\nCaptain:
+        Not yet, we need to make sure nothing goes wrong. The terraforming team is
+        already hard at work making sure there won\u2019t be any wild mutation. \r\nCaptain:
+        Not like we\u2019d be able to without that info yet, the company made sure
+        we\u2019d only get the code once the mutations had been figured out.\r\n\r\nCaptain:
+        Speaking of\u2026 \r\nCaptain: John! Bob! Any progress yet?\r\nResearcher
+        3: Nearly done sir! This should be the last simulation!\r\n\r\n*The sound
+        of a simulation booting up echoes throughout the lab, only for an error message
+        to accompany it\r\n\r\nResearcher 3: Nevermind! We\u2019ll need a bit more
+        time!\r\nCaptain: *sigh\r\n\r\nResearcher 4: What went wrong this time?\r\nResearcher
+        3: I\u2019m not sure, but it seems like it\u2019s trying to answer with two
+        different results for the same plant.\r\nResearcher 4: Yeah, that makes sense
+        right? We don\u2019t know what the future holds, and it\u2019s possible different
+        mutations happen to the same species.\r\nResearcher 3: Exactly why I\u2019m
+        confused. It\u2019s like the system thinks they\u2019re mutually exclusive?\r\n\r\n\r\n\r\nResearcher
+        3: AHA! Captain! We\u2019ve got the code!\r\nResearcher 4: You solved it?\r\nResearcher
+        3: Not exactly, I still don\u2019t know why it gave an error, but we managed
+        to bypass it and neither mutation seems harmful, so everything should be
+        fine!\r\nCaptain: Oh who cares how you did it, we\u2019ve got a deadline,
+        give me that code.\r\nResearcher 4: Right away sir!\r\n~\r\nEnd of Log\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 8337693764188712230, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_Name
+      value: DialogueManager Variant VoiceLog2
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}

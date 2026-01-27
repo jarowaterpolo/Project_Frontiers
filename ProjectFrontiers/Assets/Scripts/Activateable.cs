@@ -10,6 +10,8 @@ public class Activateable : MonoBehaviour
 
     public char ActivateKey = 'e';
 
+    public GameObject E_Canvas;
+
     private void Start()
     {
 
@@ -32,15 +34,13 @@ public class Activateable : MonoBehaviour
         {
             //Debug.Log("Player is in the collider");
             PlayerInTrigger = true;
-        }
-        else
-        {
-            PlayerInTrigger = false;
+            E_Canvas.SetActive(true);
         }
     }
     private void OnTriggerExit(Collider other)
     {
         PlayerInTrigger = false;
+        E_Canvas.SetActive(false);
     }
 
     public void Activate_Reactor()

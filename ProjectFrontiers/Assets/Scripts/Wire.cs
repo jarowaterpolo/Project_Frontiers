@@ -7,7 +7,7 @@ public class Wire : MonoBehaviour
     public Transform correctTarget;
     public LineRenderer line;
 
-    private Camera cam;
+    public Camera cam;
     private bool connected;
 
     private static int plantsConnected;
@@ -26,7 +26,10 @@ public class Wire : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (plantsConnected >= 6)
+        {
+            Destroy(line);
+        }
     }
 
     void OnMouseDown()

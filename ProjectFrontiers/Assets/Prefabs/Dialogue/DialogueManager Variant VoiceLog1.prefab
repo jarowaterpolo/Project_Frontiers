@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &3135177684209748208
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2919393183127220568, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: "-Recorded on: September 10th 2139; 14:00\r\n~\r\nCaptain: Alright everyone,
+        get your stuff out of the ship, we\u2019ve got a lot to do and a very short
+        deadline. Move it people!\r\n\r\n*Footsteps echo through the lab, heavy boxes
+        dropped at the research stations and newly set-up computers activate\n\n\rResearcher
+        1: Sir, the reactor is far too heavy to carry on my own, and I\u2019m worried
+        that-\r\nCaptain: Kyle! Help David carry the reactor inside alright!\r\nResearcher
+        2: Yes sir!\r\n"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: "*An incredibly heavy box screeches across the floor\r\n\r\nResearcher
+        1: Kyle, you gotta lift it! It\u2019s gonna break like this!\r\nResearcher
+        2: Oh come on, it\u2019ll be fine-\r\n\nthunk sound(!)\n\nResearcher 2: Oops\r\nResearcher
+        2: Oh well, it\u2019ll be fine.\r\nResearcher 1: You have got to be kidding
+        me. Really Kyle?\r\n\r\nCaptain: What\u2019s going on here, I heard a noise\r\nResearcher
+        1: Kyle just-\r\nResearcher 2: Nothing sir! Hahaa, just some playful banter.\r\n\r\n\r"
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: "Captain: Right, whatever, well, open the box and get that reactor installed
+        alright?\r\nResearcher 1: But sir-\r\nResearcher 2: Yes sir! We\u2019ll get
+        right on that!\r\n~"
+      objectReference: {fileID: 0}
+    - target: {fileID: 8337693764188712230, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: m_Name
+      value: DialogueManager Variant VoiceLog1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
