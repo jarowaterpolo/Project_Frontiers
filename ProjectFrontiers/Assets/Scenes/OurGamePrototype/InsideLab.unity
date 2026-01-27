@@ -3750,6 +3750,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 2336311961119251047, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: abcd230c6e88cde428c1ebe90fab3ebe, type: 2}
     - target: {fileID: 3993846693335662985, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -3768,7 +3772,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4872156617055785134, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5131062023766949472, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
@@ -3824,14 +3828,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6461171426925556245, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6877802622697767904, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
       objectReference: {fileID: 1890417595}
+    - target: {fileID: 8550251318451575496, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 24eb46c9929bf36498c4c70ae1a2fcfe, type: 2}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 258529025934906834, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+    - {fileID: 6903836867378412693, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
