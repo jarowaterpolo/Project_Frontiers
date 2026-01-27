@@ -3080,6 +3080,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4492066867391832460, guid: 1fe094472e8edb1459a13185131395f0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ba4386b5473700469a992928dd6cab1, type: 2}
     - target: {fileID: 5001006281753067127, guid: 1fe094472e8edb1459a13185131395f0, type: 3}
       propertyPath: m_Name
       value: Rock_3 (3)
@@ -4152,6 +4156,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 4492066867391832460, guid: 1fe094472e8edb1459a13185131395f0, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: 2100000, guid: 5ba4386b5473700469a992928dd6cab1, type: 2}
     - target: {fileID: 5001006281753067127, guid: 1fe094472e8edb1459a13185131395f0, type: 3}
       propertyPath: m_Name
       value: Bush_02 (1)
