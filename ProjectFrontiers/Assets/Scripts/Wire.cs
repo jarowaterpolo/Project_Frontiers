@@ -50,6 +50,7 @@ public class Wire : MonoBehaviour
         mouse.z = cam.WorldToScreenPoint(transform.position).z;
 
         Vector3 world = cam.ScreenToWorldPoint(mouse);
+        world.z = transform.position.z;
 
         line.SetPosition(1, world);
     }
