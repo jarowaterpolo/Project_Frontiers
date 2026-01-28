@@ -4276,15 +4276,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2721639255637253011, guid: 1050f763e06c2cb4ab144fa18875086c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -21.2
+      value: -21.04
       objectReference: {fileID: 0}
     - target: {fileID: 2721639255637253011, guid: 1050f763e06c2cb4ab144fa18875086c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.16
+      value: 0.13
       objectReference: {fileID: 0}
     - target: {fileID: 2721639255637253011, guid: 1050f763e06c2cb4ab144fa18875086c, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -7.07
+      value: -15.07
       objectReference: {fileID: 0}
     - target: {fileID: 2721639255637253011, guid: 1050f763e06c2cb4ab144fa18875086c, type: 3}
       propertyPath: m_LocalRotation.w
@@ -4743,10 +4743,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: LabPrefab
       objectReference: {fileID: 0}
-    - target: {fileID: 3129906193070568716, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 71
-      objectReference: {fileID: 0}
     - target: {fileID: 3993846693335662985, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: E_Canvas
       value: 
@@ -4763,10 +4759,6 @@ PrefabInstance:
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1795863956}
-    - target: {fileID: 4872156617055785134, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 5131062023766949472, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: E_Canvas
       value: 
@@ -4835,10 +4827,6 @@ PrefabInstance:
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 1378985739}
-    - target: {fileID: 9055346893849720227, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 71
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
