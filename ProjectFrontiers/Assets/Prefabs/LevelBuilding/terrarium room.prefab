@@ -470,7 +470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6195159531042428972}
   m_Layer: 0
-  m_Name: Terrarium room
+  m_Name: terrarium room
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
