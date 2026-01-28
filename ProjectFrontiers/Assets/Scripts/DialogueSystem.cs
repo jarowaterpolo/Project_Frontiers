@@ -28,7 +28,7 @@ public class DialogueSystem : MonoBehaviour
 
     void Update()
     {
-        if (dialoguePanel.activeSelf && Input.GetKeyDown(KeyCode.E))
+        if (dialoguePanel.activeSelf && (Input.GetKeyDown(KeyCode.E) || Input.GetMouseButtonDown(0)))
         {
             if (isTyping)
             {
