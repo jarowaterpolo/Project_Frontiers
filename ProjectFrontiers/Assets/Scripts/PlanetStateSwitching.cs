@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class PlanetStateSwitching : MonoBehaviour
 {
+    [Header("STATE SWITCHING")]
+    [Space(10)]
     public string TargetPlanetState;
     public char SwitchPlanetStateKey = 'q';
 
@@ -15,17 +17,23 @@ public class PlanetStateSwitching : MonoBehaviour
     public GameObject WastelandSwitch;
     public GameObject OvergrownSwitch;
 
-    public UnityEvent Audio;
-
-    private int i;
     public static bool HasRemote;
 
-    private float GlitchDelay = .15f;
+    [Space(20)]
+    [Header("AUDIO STUFF")]
+    [Space(10)]
+    public UnityEvent Audio;
 
-    private bool StartCutsceneDone = false;
-
+    [Space(20)]
+    [Header("ERROR STUFF")]
+    [Space(10)]
+    private int i;
     public GameObject ErrorCanvas;
     public UnityEvent ErrorStop;
+
+    //[Header("Cutscene stuff")]
+    private float GlitchDelay = .15f;
+    private bool StartCutsceneDone = false;
 
     private void Start()
     {
@@ -120,6 +128,7 @@ public class PlanetStateSwitching : MonoBehaviour
             WasteOn();
             yield return new WaitForSeconds(GlitchDelay);
             OvergrownOn();
+            Audio.Invoke();
         }
         else
         {
