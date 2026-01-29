@@ -15,6 +15,8 @@ public class PlanetStateSwitching : MonoBehaviour
     public GameObject WastelandSwitch;
     public GameObject OvergrownSwitch;
 
+    public UnityEvent Audio;
+
     private int i;
     public static bool HasRemote;
 
@@ -77,6 +79,8 @@ public class PlanetStateSwitching : MonoBehaviour
                         TargetPlanetState = "Wasteland";
                         break;
                 }
+
+                Audio.Invoke();
             }
         }
     }
