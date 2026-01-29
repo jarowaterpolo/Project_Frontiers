@@ -12,6 +12,8 @@ public class Activateable : MonoBehaviour
 
     public GameObject E_Canvas;
 
+    public bool TaskComplete = false;
+
     private void Start()
     {
 
@@ -34,9 +36,19 @@ public class Activateable : MonoBehaviour
         {
             //Debug.Log("Player is in the collider");
             PlayerInTrigger = true;
+        }
+    }
+
+    public void OnTriggerEnter(Collider other)
+    {
+        if (TaskComplete == true) return;
+        //Debug.Log(other.name + " is in the collider");
+        if (other.transform.parent.CompareTag("Player"))
+        {
             E_Canvas.SetActive(true);
         }
     }
+
     private void OnTriggerExit(Collider other)
     {
         PlayerInTrigger = false;
@@ -51,5 +63,10 @@ public class Activateable : MonoBehaviour
     public void GetRemote()
     {
         PlanetStateSwitching.HasRemote = true;
+    }
+
+    public void SetTaskToDone()
+    {
+        TaskComplete = true;
     }
 }
