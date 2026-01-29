@@ -48,9 +48,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4580586274633585723, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: Alright, this should be the lab where those researchers disappeared...
+        I wonder what happened to them, I should get inside to investigate.
+      objectReference: {fileID: 0}
     - target: {fileID: 8337693764188712230, guid: c4e9caf48dc6f414d8f1df2799dda6e9, type: 3}
       propertyPath: m_Name
-      value: DialogueManager
+      value: DialogueManager Variant OutsideWastelandText
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
