@@ -5347,7 +5347,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2310731463407533059, guid: bf7d94e43d229954889e3116de25d4d3, type: 3}
       propertyPath: m_text
-      value: "You switched time a bit too much. \nBe more carefull next time ;)"
+      value: "You switched time a bit too much. \nBe more careful next time ;)"
       objectReference: {fileID: 0}
     - target: {fileID: 4248183675771476594, guid: bf7d94e43d229954889e3116de25d4d3, type: 3}
       propertyPath: m_Name
