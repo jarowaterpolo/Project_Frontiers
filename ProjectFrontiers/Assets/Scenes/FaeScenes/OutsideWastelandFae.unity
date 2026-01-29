@@ -1895,8 +1895,8 @@ Transform:
   m_GameObject: {fileID: 753725212}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: -3.1, z: -9.5}
+  m_LocalScale: {x: 1.1768, y: 2.885589, z: 3.6152472}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1107258577}
@@ -2286,7 +2286,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1415321006095391822, guid: 55ea69b3f8ab3054e91351f6ae28fde5, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: Let' s go into the building
+      value: Alright, this should be the lab where those researchers disappeared...
+        I wonder what happened to them, I should get inside to investigate.
       objectReference: {fileID: 0}
     - target: {fileID: 6881720458384991571, guid: 55ea69b3f8ab3054e91351f6ae28fde5, type: 3}
       propertyPath: m_Name
