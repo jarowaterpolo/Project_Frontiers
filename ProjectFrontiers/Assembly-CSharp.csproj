@@ -9,7 +9,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{765F5A14-B4D6-D83B-F32F-F7AA72FAED9F}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -65,13 +66,14 @@
     <Compile Include="Assets\Scripts\InputTextPairText.cs" />
     <Compile Include="Assets\Scripts\NewEmptyCSharpScript.cs" />
     <Compile Include="Assets\Scripts\PlanetStateSwitching.cs" />
+    <Compile Include="Assets\Scripts\RandomAudioPlayerWithRange.cs" />
     <Compile Include="Assets\Scripts\Menu\SceneLoader.cs" />
     <Compile Include="Assets\Scripts\SceneManagement.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\RemoteLighting.cs" />
-    <Compile Include="Assets\UIClose.cs" />
     <Compile Include="Assets\Scripts\MouseSensitivityControl.cs" />
     <Compile Include="Assets\Scripts\RespawnPoint.cs" />
+    <Compile Include="Assets\Scripts\UIClose.cs" />
     <Compile Include="Assets\Scripts\Activateable.cs" />
     <Compile Include="Assets\Scripts\Wire.cs" />
     <Compile Include="Assets\Scripts\EventTrigger.cs" />
