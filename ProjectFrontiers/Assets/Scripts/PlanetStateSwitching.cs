@@ -24,7 +24,7 @@ public class PlanetStateSwitching : MonoBehaviour
     [Space(10)]
     public UnityEvent Audio;
 
-    [Space(40)]
+    [Space(20)]
     [Header("ERROR STUFF")]
     [Space(10)]
     private int i;
@@ -128,6 +128,7 @@ public class PlanetStateSwitching : MonoBehaviour
             WasteOn();
             yield return new WaitForSeconds(GlitchDelay);
             OvergrownOn();
+            Audio.Invoke();
         }
         else
         {
