@@ -26,6 +26,14 @@ public class RandomAudioPlayerWithRange : MonoBehaviour
         
     }
 
+    public void AudioSwitchTime()
+    {
+        for (int i = 0; i < StartAudios.Length; i++)
+        {
+            StartAudios[i].Invoke();
+        }
+    }
+
     public void StartAudio(int AudioNumber)
     {
         //Debug.Log("Player audio = " + AudioNumber);
