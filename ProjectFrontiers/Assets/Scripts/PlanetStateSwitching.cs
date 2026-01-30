@@ -27,9 +27,9 @@ public class PlanetStateSwitching : MonoBehaviour
     [Space(20)]
     [Header("ERROR STUFF")]
     [Space(10)]
-    private int i;
     public GameObject ErrorCanvas;
     public UnityEvent ErrorStop;
+    private int i;
 
     //[Header("Cutscene stuff")]
     private float GlitchDelay = .15f;

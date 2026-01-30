@@ -1,5 +1,6 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.Animations;
 using UnityEngine.Audio;
 
 public class PlayerController : MonoBehaviour
@@ -10,6 +11,8 @@ public class PlayerController : MonoBehaviour
     public LayerMask groundMask;
 
     private bool isGrounded;
+    private bool wasGrounded;
+    private bool hasLanded;
 
     [Header("Movement Settings")]
     public float maxSpeed = 5f;
@@ -30,6 +33,9 @@ public class PlayerController : MonoBehaviour
     public float stepInterval = 0.5f;
     private float stepTimer = 0f;
 
+    [Header("Landing Audio")]
+    public AudioSource LandingSounds;
+
     private Rigidbody rb;
     private float xRotation;
 
@@ -46,6 +52,20 @@ public class PlayerController : MonoBehaviour
     {
         // Ground Check
         isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+
+        // Landing check
+        if (!wasGrounded && isGrounded && rb.linearVelocity.y <= 0 && !hasLanded)
+        {
+            OnLand();
+            hasLanded = true;
+        }
+
+        if (!isGrounded)
+        {
+            hasLanded = false;
+        }
+
+        wasGrounded = isGrounded;
 
         // Jump Input
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
@@ -110,6 +130,7 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
             jumpRequested = false;
+
         }
     }
 
@@ -132,5 +153,12 @@ public class PlayerController : MonoBehaviour
     {
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+    }
+    void OnLand()
+    {
+        float fallSpeed = Mathf.Abs(rb.linearVelocity.y);
+        if (fallSpeed < 4f) return;
+
+        LandingSounds.Play();
     }
 }

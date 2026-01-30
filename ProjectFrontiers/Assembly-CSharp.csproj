@@ -63,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Assets\AssetPack\Resources\WaterReflection.cs" />
     <Compile Include="Assets\Scripts\InputTextPairText.cs" />
-    <Compile Include="Assets\Scripts\NewEmptyCSharpScript.cs" />
     <Compile Include="Assets\Scripts\PlanetStateSwitching.cs" />
     <Compile Include="Assets\Scripts\RandomAudioPlayerWithRange.cs" />
     <Compile Include="Assets\Scripts\Menu\SceneLoader.cs" />
