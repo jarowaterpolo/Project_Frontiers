@@ -22,7 +22,8 @@ public class PlanetStateSwitching : MonoBehaviour
     [Space(20)]
     [Header("AUDIO STUFF")]
     [Space(10)]
-    public UnityEvent Audio;
+    public UnityEvent PlanetAudio;
+    public UnityEvent SwitchAudio;
 
     [Space(20)]
     [Header("ERROR STUFF")]
@@ -67,6 +68,8 @@ public class PlanetStateSwitching : MonoBehaviour
                         WastelandParent.SetActive(true);
                         OvergrownParent.SetActive(false);
 
+                        SwitchAudio.Invoke();
+
                         WastelandSwitch.SetActive(true);
                         OvergrownSwitch.SetActive(false);
 
@@ -79,6 +82,8 @@ public class PlanetStateSwitching : MonoBehaviour
                         OvergrownParent.SetActive(true);
                         WastelandParent.SetActive(false);
 
+                        SwitchAudio.Invoke();
+
                         OvergrownSwitch.SetActive(true);
                         WastelandSwitch.SetActive(false);
 
@@ -88,7 +93,7 @@ public class PlanetStateSwitching : MonoBehaviour
                         break;
                 }
 
-                Audio.Invoke();
+                PlanetAudio.Invoke();
             }
         }
     }
@@ -128,7 +133,7 @@ public class PlanetStateSwitching : MonoBehaviour
             WasteOn();
             yield return new WaitForSeconds(GlitchDelay);
             OvergrownOn();
-            Audio.Invoke();
+            PlanetAudio.Invoke();
         }
         else
         {
