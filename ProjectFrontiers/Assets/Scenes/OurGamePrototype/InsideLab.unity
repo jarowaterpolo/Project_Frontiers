@@ -5234,6 +5234,10 @@ PrefabInstance:
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 1378985739}
+    - target: {fileID: 5731986348946828596, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: footstepSources.Array.size
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5853943696996101315, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.21765

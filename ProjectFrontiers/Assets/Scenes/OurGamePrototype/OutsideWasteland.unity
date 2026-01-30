@@ -721,7 +721,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &518375803
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4099,9 +4099,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5654715165273155689, guid: 8894de1c16abe8d4e97f7f55b83e257f, type: 3}
+      propertyPath: m_Color.a
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7416830947332766325, guid: 8894de1c16abe8d4e97f7f55b83e257f, type: 3}
       propertyPath: m_Name
       value: DialoguePanel Variant Info
+      objectReference: {fileID: 0}
+    - target: {fileID: 7728205394711818255, guid: 8894de1c16abe8d4e97f7f55b83e257f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
