@@ -26,7 +26,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("Footstep Audio")]
     public AudioSource footstepSource;
-    public AudioClip[] footstepClips;
+    public AudioSource[] footstepSources;
     public float stepInterval = 0.5f;
     private float stepTimer = 0f;
 
@@ -115,12 +115,11 @@ public class PlayerController : MonoBehaviour
 
     void PlayFootstep()
     {
-        if (footstepClips.Length == 0 || footstepSource == null)
+        if (footstepSources.Length == 0 || footstepSource == null)
             return;
 
-        int randomIndex = Random.Range(0, footstepClips.Length);
-        footstepSource.clip = footstepClips[randomIndex];
-        footstepSource.Play();
+        int randomIndex = Random.Range(0, footstepSources.Length);
+        footstepSources[randomIndex].Play();
     }
 
     public void CursorLock()
