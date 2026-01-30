@@ -203,6 +203,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &74221290 stripped
+AudioSource:
+  m_CorrespondingSourceObject: {fileID: 4630402031443103126, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+  m_PrefabInstance: {fileID: 5292811564691057854}
+  m_PrefabAsset: {fileID: 0}
 --- !u!114 &74221291 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 5473894635839719358, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
@@ -5184,6 +5189,10 @@ PrefabInstance:
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[3].m_Target
       value: 
       objectReference: {fileID: 1378985739}
+    - target: {fileID: 3338029177417704328, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 5131062023766949472, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: E_Canvas
       value: 
@@ -5196,6 +5205,14 @@ PrefabInstance:
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 1378985739}
+    - target: {fileID: 5473894635839719358, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: StartAudios.Array.data[0].m_PersistentCalls.m_Calls.Array.size
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731986348946828596, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: LandingSounds
+      value: 
+      objectReference: {fileID: 74221290}
     - target: {fileID: 5853943696996101315, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.21765
