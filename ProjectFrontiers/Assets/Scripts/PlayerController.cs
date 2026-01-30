@@ -115,7 +115,7 @@ public class PlayerController : MonoBehaviour
 
     void PlayFootstep()
     {
-        if (footstepSources.Length == 0 || footstepSource == null)
+        if (footstepSources.Length == 0 && footstepSource == null)
             return;
 
         int randomIndex = Random.Range(0, footstepSources.Length);
