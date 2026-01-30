@@ -504,7 +504,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7949613090178326279, guid: c1859af4c9ecc3a42882b4e7f038c91f, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: "Wait what is going on is it caused by this remote \n\n(Q & RMB)"
+      value: 'Wait what is going on is it caused by this remote?
+
+
+        (Q & RMB)'
       objectReference: {fileID: 0}
     - target: {fileID: 7949613090178326279, guid: c1859af4c9ecc3a42882b4e7f038c91f, type: 3}
       propertyPath: 'dialogueLines.Array.data[1]'
