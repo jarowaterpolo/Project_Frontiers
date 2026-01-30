@@ -6271,6 +6271,26 @@ PrefabInstance:
       propertyPath: TriggerEvent.m_PersistentCalls.m_Calls.Array.data[4].m_Target
       value: 
       objectReference: {fileID: 1378985739}
+    - target: {fileID: 5731986348946828596, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: footstepClips.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 5731986348946828596, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: 'footstepClips.Array.data[0]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 2f10c39e1d391ce4f8a38cf4feb401f5, type: 3}
+    - target: {fileID: 5731986348946828596, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: 'footstepClips.Array.data[1]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 58526952ac6fb874ca207be11954d0e6, type: 3}
+    - target: {fileID: 5731986348946828596, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: 'footstepClips.Array.data[2]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 0ac9d07a39115584eafde66571cc99a4, type: 3}
+    - target: {fileID: 5731986348946828596, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
+      propertyPath: 'footstepClips.Array.data[3]'
+      value: 
+      objectReference: {fileID: 8300000, guid: 351b2891106d8ba42be0643dcd103b87, type: 3}
     - target: {fileID: 5853943696996101315, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       propertyPath: m_LocalPosition.x
       value: -69.21765
@@ -6427,6 +6447,10 @@ PrefabInstance:
     - target: {fileID: 4248183675771476594, guid: bf7d94e43d229954889e3116de25d4d3, type: 3}
       propertyPath: m_Name
       value: SwitchingError
+      objectReference: {fileID: 0}
+    - target: {fileID: 4248183675771476594, guid: bf7d94e43d229954889e3116de25d4d3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8525160050826216845, guid: bf7d94e43d229954889e3116de25d4d3, type: 3}
       propertyPath: m_Pivot.x
