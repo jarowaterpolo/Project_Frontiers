@@ -473,6 +473,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9f44e503b68a34dbededbd2646a1a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 6933789216846653818}
   MasterVolume: {fileID: 24100000, guid: 6bbe2283ab501014591566eaddec8675, type: 2}
   PercentText: {fileID: 3867311386172440756}
   AudioParameter: Music
@@ -627,6 +628,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9f44e503b68a34dbededbd2646a1a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 4017317585598653188}
   MasterVolume: {fileID: 24100000, guid: 6bbe2283ab501014591566eaddec8675, type: 2}
   PercentText: {fileID: 7429587052259030627}
   AudioParameter: SFX
@@ -1006,6 +1008,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e9f44e503b68a34dbededbd2646a1a1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  volumeSlider: {fileID: 6871446060283102665}
   MasterVolume: {fileID: 24100000, guid: 6bbe2283ab501014591566eaddec8675, type: 2}
   PercentText: {fileID: 8508807771307039167}
   AudioParameter: Master

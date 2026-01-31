@@ -347,17 +347,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 97604c2c87e0cb245b78fae6618581ed, type: 3}
---- !u!114 &74221291 stripped
-MonoBehaviour:
-  m_CorrespondingSourceObject: {fileID: 5473894635839719358, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
-  m_PrefabInstance: {fileID: 5292811564691057854}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2bfdd8759e755a3438021d0133d1895d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1001 &178642181
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1491,7 +1480,7 @@ AudioSource:
   m_GameObject: {fileID: 924272306}
   m_Enabled: 1
   serializedVersion: 4
-  OutputAudioMixerGroup: {fileID: 0}
+  OutputAudioMixerGroup: {fileID: 6870788500051642761, guid: 6bbe2283ab501014591566eaddec8675, type: 2}
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: f0078bb172a933244be5cf33b30cc81e, type: 3}
   m_PlayOnAwake: 0
@@ -2531,7 +2520,7 @@ PrefabInstance:
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: Audio.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 74221291}
+      objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: Audio.m_PersistentCalls.m_Calls.Array.data[1].m_Target
       value: 
@@ -2595,7 +2584,7 @@ PrefabInstance:
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: PlanetAudio.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
-      objectReference: {fileID: 74221291}
+      objectReference: {fileID: 0}
     - target: {fileID: 7339214876088277968, guid: 69fe7331f125ec146a62f128e824187a, type: 3}
       propertyPath: SwitchAudio.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -5773,7 +5762,8 @@ PrefabInstance:
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 3338029177417704328, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 7645761182157468428, guid: 30b9008694de8da499b11c7b7fe447bb, type: 3}
       insertIndex: -1
