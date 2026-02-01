@@ -868,6 +868,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 472434192518966644, guid: c32c9df7a6641be4092cf03cdda3cd69, type: 3}
+      propertyPath: OutputAudioMixerGroup
+      value: 
+      objectReference: {fileID: -3441040367099762457, guid: 6bbe2283ab501014591566eaddec8675, type: 2}
     - target: {fileID: 2989909708171550254, guid: c32c9df7a6641be4092cf03cdda3cd69, type: 3}
       propertyPath: m_Name
       value: BackgroundMusicStart_End
