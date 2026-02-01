@@ -798,7 +798,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7949613090178326279, guid: c1859af4c9ecc3a42882b4e7f038c91f, type: 3}
       propertyPath: 'dialogueLines.Array.data[0]'
-      value: 'what happend was it caused by this remote?
+      value: 'What happend, was it caused by this remote?
 
 
         (Q & RMB)'
@@ -4486,6 +4486,11 @@ PrefabInstance:
     - target: {fileID: 2171793078287810459, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2911120142795884050, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
+      propertyPath: m_text
+      value: "You switched time a bit too much and got stuck between time. \nBe more
+        careful next time ;)"
       objectReference: {fileID: 0}
     - target: {fileID: 3201712243986101562, guid: 232183e3e31637741a8aea3e55ec9e35, type: 3}
       propertyPath: m_IsActive
