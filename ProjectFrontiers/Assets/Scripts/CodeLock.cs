@@ -1,5 +1,6 @@
 using TMPro;
 using Unity.VisualScripting;
+using UnityEngine.SceneManagement;
 using UnityEngine;
 
 public class CodeLock : MonoBehaviour
@@ -43,6 +44,15 @@ public class CodeLock : MonoBehaviour
                 break;
             case "0":
                 CodeText.text += "0";
+                break;
+            case "Erase":
+                CodeText.text = "";
+                break;
+            case "Enter":
+                if(CodeText.text == "121247")
+                {
+                    SceneManager.LoadScene("End");
+                }
                 break;
 
             default:
